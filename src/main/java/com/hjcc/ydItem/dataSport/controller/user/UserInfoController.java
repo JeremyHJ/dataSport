@@ -1,7 +1,7 @@
-package com.hjcc.ydItem.dataSport.control.user;/**
+package com.hjcc.ydItem.dataSport.controller.user;/**
  Created by 胡杰 on 2019/3/30. */
 
-import com.hjcc.ydItem.dataSport.control.BaseControl;
+import com.hjcc.ydItem.dataSport.controller.BaseController;
 import com.hjcc.ydItem.dataSport.domain.entity.User;
 import com.hjcc.ydItem.dataSport.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import java.util.List;
  * Date: 2019/3/30 下午8:15
  */
 @RestController
-public class UserInfoControl extends BaseControl {
+public class UserInfoController extends BaseController {
 
     @Autowired
     private UserRepository userRepository;
